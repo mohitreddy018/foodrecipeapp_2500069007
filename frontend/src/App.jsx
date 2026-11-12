@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 import recipeImages from "./recipeImages";
-import RecipeRating from "./RecipeRating";
+import RecipeRating from "./Reciperating";
 import SubmitRecipe from "./SubmitRecipe";
 import AuthModal from "./AuthModal";
 import AdminDashboard from "./AdminDashboard";
