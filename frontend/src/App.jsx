@@ -6,7 +6,8 @@ import SubmitRecipe from "./SubmitRecipe";
 import AuthModal from "./AuthModal";
 import AdminDashboard from "./AdminDashboard";
 
-const API_URL = "http://localhost:5000/api/recipes";
+// const API_URL = "http://localhost:5000/api/recipes";
+const API_URL = `${import.meta.env.VITE_API_URL}/api/recipes`;
 
 const categories = [
   ["All", "🍽️"],

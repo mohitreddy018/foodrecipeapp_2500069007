@@ -1,8 +1,10 @@
 import { useCallback, useEffect, useState } from "react";
 import "./AdminDashboard.css";
 
-const API = "http://localhost:5000/api/recipes";
-const SUBMISSIONS = "http://localhost:5000/api/submissions";
+// const API = "http://localhost:5000/api/recipes";
+// const SUBMISSIONS = "http://localhost:5000/api/submissions";
+const API = `${import.meta.env.VITE_API_URL}/api/recipes`;
+const SUBMISSIONS = `${import.meta.env.VITE_API_URL}/api/submissions`;
 
 const emptyRecipe = {
   name: "",
